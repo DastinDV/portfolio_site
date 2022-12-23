@@ -13,9 +13,6 @@ with col2:
     content = "I am just a programmer. Working for IBA company and try to enter gamedev!"
     st.info(content)
 
-st.write("Hello my first very diffucult student task. Yo Yo Yo Mister White")
-
-
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 df = pandas.read_csv("data.csv", sep=";")
